@@ -392,11 +392,24 @@ article {
   display: flex;
   width: 10rem;
   justify-content: space-around;
+  align-items: center;
   gap: 0.5rem;
 }
 
 article .icon {
   cursor: default;
+}
+
+article h3 {
+  font-size: 1.1rem;
+  margin: 0;
+  color: #333;
+}
+
+article p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
 }
 
 /* PROJECTS SECTION */
